@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f9b2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.country-selector {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #091d02;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #0ef015;
+    color: white;
+}

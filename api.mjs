@@ -1,7 +1,7 @@
-const apiKey = 'https://calendarific.com/api/v2'; 
+const apiKey = 'rGTvhjSl5nWVLfkDGeOJWEcgxqIeJpr4'; 
 
 export async function getCountries() {
-    const response = await fetch(`https://calendarific.com/api/v2/countries`);
+    const response = await fetch(`https://calendarific.com/api/v2/countries?api_key=${apiKey}`);
     const data = await response.json();
     return data.response.countries;
 }

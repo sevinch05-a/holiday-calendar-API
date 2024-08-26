@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e3f9b2;
+    /* background-color: #e3f9b2; */
+    background: url("https://media.gettyimages.com/id/1354886741/photo/defocused-lights-background.jpg?s=612x612&w=0&k=20&c=dtdnnRJowZRVYwx0blml-fgr3upOiYJRZnPD_Rbf3JM=") no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -8,6 +10,7 @@ body {
 h1 {
     text-align: center;
     margin-top: 20px;
+    color:#034f92
 }
 
 .country-selector {
@@ -22,12 +25,12 @@ table {
 }
 
 th, td {
-    border: 1px solid #091d02;
+    border: 1px solid #063f5e;
     padding: 8px;
     text-align: center;
 }
 
 th {
-    background-color: #0ef015;
+    background-color: #066290;
     color: white;
 }

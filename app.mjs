@@ -3,10 +3,10 @@ import { displayCalendar } from './calendar.mjs';
 
 document.addEventListener('DOMContentLoaded', async () => {
     const countrySelect = document.getElementById('country');
-    const loader = document.getElementById('loader');  // Ensure the loader element exists
+    const loader = document.getElementById('loader'); 
 
     try {
-        // Fetch and populate countries
+       
         const countries = await getCountries();
         countries.forEach(country => {
             const option = document.createElement('option');
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             countrySelect.appendChild(option);
         });
 
-        // Handle country selection
+        
         countrySelect.addEventListener('change', async () => {
             const countryCode = countrySelect.value;
 

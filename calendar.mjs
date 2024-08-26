@@ -1,7 +1,6 @@
 export function displayCalendar(holidays) {
     const tableBody = document.querySelector('#holidayTable tbody');
-    tableBody.innerHTML = ''; // Clear existing table rows
-
+    tableBody.innerHTML = ''; 
     holidays.forEach(holiday => {
         const row = document.createElement('tr');
 
